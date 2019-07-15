@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+legend{
+    color: blue;
+}
+
+input{
+    background-color: wheat;
+    width: 200px;
+}
