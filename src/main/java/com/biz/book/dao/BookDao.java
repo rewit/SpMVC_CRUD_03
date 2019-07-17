@@ -7,4 +7,13 @@ import com.biz.book.model.BookVO;
 public interface BookDao {
 
 	public List<BookVO> selectAll();
+	public BookVO findBySeq(long b_seq);
+	
+	public List<BookVO>findByTitle(String b_title);
+	public List<BookVO>findByComp(String b_comp);
+	public List<BookVO>findByAuth(String b_auth);
+	
+	public int insert(BookVO bookVO);
+	public int update(BookVO bookVO);
+	public int delete(long b_seq);
 }
